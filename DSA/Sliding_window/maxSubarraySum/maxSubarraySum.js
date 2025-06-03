@@ -32,6 +32,6 @@ function maxSubarraySum(arr,n){
 // 5. Loop from index n to end of array
 //     - Subtract arr[i - n] from tempSum (value leaving the window)
 //     - Add arr[i] to tempSum (value entering the window)
-//     - Update maxSum to be the max of tempSum and current maxSum
+//     - Update maxSum to be the max of tempSum and current maxSum.
 
-// 6. After loop ends, return maxSum.
+// 6. After loop ends, return maxSum
