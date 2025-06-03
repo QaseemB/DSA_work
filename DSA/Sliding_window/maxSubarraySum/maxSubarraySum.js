@@ -1,4 +1,4 @@
-function maxSubarraySum(){
+function maxSubarraySum(arr,n){
 // add whatever parameters you deem necessary - good luck!
   if(arr.length < n) return null;
   
