@@ -18,6 +18,7 @@ function countZeroes(arr){
     return firstZero === -1 ? 0 : arr.length - firstZero;
 }
 
+console.log(countZeroes([1,1,1,0,0]));
 
 // 1. INPUT / OUTPUT
 //    • Input: A sorted array of 1's followed by 0's (e.g. [1,1,1,0,0])
